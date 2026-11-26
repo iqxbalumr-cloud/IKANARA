@@ -1,0 +1,869 @@
+{
+  "state": {
+    "revision": 1,
+    "updatedAt": "2026-11-19T08:00:00.000Z",
+    "ponds": [
+      {
+        "id": "KLM-01",
+        "name": "Kolam Lele A1",
+        "species": "Lele",
+        "lengthMeters": 3,
+        "widthMeters": 4,
+        "areaSqm": 12,
+        "stockingDate": "2026-10-01",
+        "initialSeedCount": 300,
+        "currentPopulation": 294,
+        "mortalityCount": 6,
+        "harvestedCount": 0,
+        "sizeDistribution": {
+          "kecil": 24,
+          "sedang": 170,
+          "siapPanen": 100
+        },
+        "condition": "Optimal",
+        "waterStatus": "Jernih & Sehat",
+        "waterNote": "Aerasi stabil, warna air hijau kecoklatan alami.",
+        "estimatedHarvestDate": "2026-12-10",
+        "isActive": true,
+        "createdAt": "2026-10-01T07:00:00.000Z",
+        "updatedAt": "2026-11-19T07:30:00.000Z"
+      },
+      {
+        "id": "KLM-02",
+        "name": "Kolam Nila B1",
+        "species": "Nila",
+        "lengthMeters": 3,
+        "widthMeters": 4,
+        "areaSqm": 12,
+        "stockingDate": "2026-09-20",
+        "initialSeedCount": 120,
+        "currentPopulation": 118,
+        "mortalityCount": 2,
+        "harvestedCount": 0,
+        "sizeDistribution": {
+          "kecil": 12,
+          "sedang": 66,
+          "siapPanen": 40
+        },
+        "condition": "Optimal",
+        "waterStatus": "Jernih & Sehat",
+        "waterNote": "Sirkulasi pompa normal, oksigen terlarut baik.",
+        "estimatedHarvestDate": "2026-12-18",
+        "isActive": true,
+        "createdAt": "2026-09-20T07:00:00.000Z",
+        "updatedAt": "2026-11-18T16:00:00.000Z"
+      },
+      {
+        "id": "KLM-03",
+        "name": "Kolam Ikan Emas C1",
+        "species": "Ikan emas",
+        "lengthMeters": 2,
+        "widthMeters": 3,
+        "areaSqm": 6,
+        "stockingDate": "2026-09-25",
+        "initialSeedCount": 30,
+        "currentPopulation": 30,
+        "mortalityCount": 0,
+        "harvestedCount": 0,
+        "sizeDistribution": {
+          "kecil": 4,
+          "sedang": 18,
+          "siapPanen": 8
+        },
+        "condition": "Optimal",
+        "waterStatus": "Jernih & Sehat",
+        "waterNote": "Aliran air mengalir lancar, tidak ada sisa pakan menumpuk.",
+        "estimatedHarvestDate": "2026-12-22",
+        "isActive": true,
+        "createdAt": "2026-09-25T07:00:00.000Z",
+        "updatedAt": "2026-11-18T15:00:00.000Z"
+      },
+      {
+        "id": "KLM-04",
+        "name": "Kolam Patin D1",
+        "species": "Patin",
+        "lengthMeters": 3,
+        "widthMeters": 4,
+        "areaSqm": 12,
+        "stockingDate": "2026-09-15",
+        "initialSeedCount": 100,
+        "currentPopulation": 98,
+        "mortalityCount": 2,
+        "harvestedCount": 0,
+        "sizeDistribution": {
+          "kecil": 10,
+          "sedang": 68,
+          "siapPanen": 20
+        },
+        "condition": "Perlu Perhatian",
+        "waterStatus": "Perlu Sirkulasi",
+        "waterNote": "Jadwal penggantian sebagian air 2-mingguan mendekat.",
+        "estimatedHarvestDate": "2026-12-28",
+        "isActive": true,
+        "createdAt": "2026-09-15T07:00:00.000Z",
+        "updatedAt": "2026-11-18T17:00:00.000Z"
+      }
+    ],
+    "seedBatches": [
+      {
+        "id": "BBT-001",
+        "pondId": "KLM-01",
+        "species": "Lele",
+        "quantity": 300,
+        "purchaseCost": 300000,
+        "purchaseDate": "2026-10-01",
+        "stockingDate": "2026-10-01",
+        "supplier": "Balai Benih Mandiri",
+        "notes": "Penebaran awal kolam Lele 3×4 m (ukuran 7–9 cm)",
+        "createdBy": "admin",
+        "createdAt": "2026-10-01T07:15:00.000Z"
+      },
+      {
+        "id": "BBT-002",
+        "pondId": "KLM-02",
+        "species": "Nila",
+        "quantity": 120,
+        "purchaseCost": 300000,
+        "purchaseDate": "2026-09-20",
+        "stockingDate": "2026-09-20",
+        "supplier": "Sentra Bibit Tirta",
+        "notes": "Penebaran awal kolam Nila merah & hitam 3×4 m",
+        "createdBy": "admin",
+        "createdAt": "2026-09-20T07:15:00.000Z"
+      },
+      {
+        "id": "BBT-003",
+        "pondId": "KLM-03",
+        "species": "Ikan emas",
+        "quantity": 30,
+        "purchaseCost": 300000,
+        "purchaseDate": "2026-09-25",
+        "stockingDate": "2026-09-25",
+        "supplier": "Sentra Bibit Tirta",
+        "notes": "Penebaran awal kolam Ikan emas 2×3 m",
+        "createdBy": "admin",
+        "createdAt": "2026-09-25T07:15:00.000Z"
+      },
+      {
+        "id": "BBT-004",
+        "pondId": "KLM-04",
+        "species": "Patin",
+        "quantity": 100,
+        "purchaseCost": 300000,
+        "purchaseDate": "2026-09-15",
+        "stockingDate": "2026-09-15",
+        "supplier": "Balai Benih Mandiri",
+        "notes": "Penebaran awal kolam Patin 3×4 m",
+        "createdBy": "admin",
+        "createdAt": "2026-09-15T07:15:00.000Z"
+      }
+    ],
+    "feedInventory": [
+      {
+        "id": "PKN-01",
+        "name": "Pelet Lele Hi-Pro 781-2",
+        "feedType": "Pelet Apung Protein 32%",
+        "targetSpecies": "Lele",
+        "stockKg": 85,
+        "minThresholdKg": 25,
+        "unitPricePerKg": 14000,
+        "updatedAt": "2026-11-19T07:30:00.000Z"
+      },
+      {
+        "id": "PKN-02",
+        "name": "Pelet Nila Nutrisi Seimbang",
+        "feedType": "Pelet Apung Protein 28%",
+        "targetSpecies": "Nila",
+        "stockKg": 62,
+        "minThresholdKg": 20,
+        "unitPricePerKg": 13000,
+        "updatedAt": "2026-11-18T16:30:00.000Z"
+      },
+      {
+        "id": "PKN-03",
+        "name": "Pelet Ikan Emas Halus",
+        "feedType": "Pelet Apung Protein 30%",
+        "targetSpecies": "Ikan emas",
+        "stockKg": 16,
+        "minThresholdKg": 20,
+        "unitPricePerKg": 15000,
+        "updatedAt": "2026-11-18T16:30:00.000Z"
+      },
+      {
+        "id": "PKN-04",
+        "name": "Pelet Patin Tenggelam",
+        "feedType": "Pelet Tenggelam Protein 28%",
+        "targetSpecies": "Patin",
+        "stockKg": 54,
+        "minThresholdKg": 20,
+        "unitPricePerKg": 13500,
+        "updatedAt": "2026-11-18T16:30:00.000Z"
+      }
+    ],
+    "feedTransactions": [
+      {
+        "id": "FTX-001",
+        "type": "masuk",
+        "feedId": "PKN-01",
+        "feedName": "Pelet Lele Hi-Pro 781-2",
+        "amountKg": 100,
+        "cost": 1400000,
+        "date": "2026-10-01",
+        "notes": "Stok pakan awal dari alokasi modal pakan awal",
+        "createdBy": "admin",
+        "createdAt": "2026-10-01T08:00:00.000Z"
+      },
+      {
+        "id": "FTX-002",
+        "type": "masuk",
+        "feedId": "PKN-02",
+        "feedName": "Pelet Nila Nutrisi Seimbang",
+        "amountKg": 80,
+        "cost": 1040000,
+        "date": "2026-10-01",
+        "notes": "Stok pakan awal Nila",
+        "createdBy": "admin",
+        "createdAt": "2026-10-01T08:05:00.000Z"
+      },
+      {
+        "id": "FTX-003",
+        "type": "masuk",
+        "feedId": "PKN-03",
+        "feedName": "Pelet Ikan Emas Halus",
+        "amountKg": 40,
+        "cost": 600000,
+        "date": "2026-10-01",
+        "notes": "Stok pakan awal Ikan Emas",
+        "createdBy": "admin",
+        "createdAt": "2026-10-01T08:10:00.000Z"
+      },
+      {
+        "id": "FTX-004",
+        "type": "masuk",
+        "feedId": "PKN-04",
+        "feedName": "Pelet Patin Tenggelam",
+        "amountKg": 70,
+        "cost": 960000,
+        "date": "2026-10-01",
+        "notes": "Stok pakan awal Patin",
+        "createdBy": "admin",
+        "createdAt": "2026-10-01T08:15:00.000Z"
+      },
+      {
+        "id": "FTX-005",
+        "type": "keluar",
+        "feedId": "PKN-01",
+        "feedName": "Pelet Lele Hi-Pro 781-2",
+        "pondId": "KLM-01",
+        "species": "Lele",
+        "amountKg": 1.5,
+        "cost": 21000,
+        "date": "2026-11-19",
+        "notes": "Pemberian pakan pagi KLM-01",
+        "createdBy": "admin",
+        "createdAt": "2026-11-19T07:30:00.000Z"
+      }
+    ],
+    "healthRecords": [
+      {
+        "id": "KSH-001",
+        "pondId": "KLM-01",
+        "species": "Lele",
+        "checkDate": "2026-11-19",
+        "frequency": "Harian",
+        "appetiteAndMovement": "Gerakan lincah, respons pakan pagi sangat agresif",
+        "symptoms": "Tidak ada gejala klinis",
+        "suspectedCause": "-",
+        "affectedCount": 0,
+        "actionTaken": "Pemantauan rutin harian selesai",
+        "monitoringResult": "Ikan sehat dan aktif",
+        "isSick": false,
+        "resolved": true,
+        "createdBy": "admin",
+        "createdAt": "2026-11-19T07:40:00.000Z"
+      },
+      {
+        "id": "KSH-002",
+        "pondId": "KLM-04",
+        "species": "Patin",
+        "checkDate": "2026-11-17",
+        "frequency": "Mingguan",
+        "appetiteAndMovement": "Nafsu makan sedikit menurun di sudut kolam",
+        "symptoms": "Sirip beberapa ekor agak kemerahan ringan",
+        "suspectedCause": "Kepadatan & sisa pakan mengendap",
+        "affectedCount": 4,
+        "actionTaken": "Pemberian probiotik air & pengurangan dosis pakan 20%",
+        "monitoringResult": "Dalam pemantauan menuju pulih",
+        "isSick": true,
+        "resolved": false,
+        "createdBy": "admin",
+        "createdAt": "2026-11-17T10:00:00.000Z"
+      }
+    ],
+    "growthRecords": [
+      {
+        "id": "PRT-001",
+        "pondId": "KLM-01",
+        "species": "Lele",
+        "measurementDate": "2026-11-15",
+        "averageWeightGrams": 115,
+        "averageLengthCm": 23.5,
+        "sizeCategory": "Siap panen",
+        "sampleCount": 20,
+        "sizeBreakdown": {
+          "kecil": 24,
+          "sedang": 170,
+          "siapPanen": 100
+        },
+        "notes": "Sampling dua mingguan menunjukkan 100 ekor masuk ukuran konsumsi.",
+        "createdBy": "admin",
+        "createdAt": "2026-11-15T09:00:00.000Z"
+      },
+      {
+        "id": "PRT-002",
+        "pondId": "KLM-02",
+        "species": "Nila",
+        "measurementDate": "2026-11-15",
+        "averageWeightGrams": 185,
+        "averageLengthCm": 21,
+        "sizeCategory": "Sedang",
+        "sampleCount": 15,
+        "sizeBreakdown": {
+          "kecil": 12,
+          "sedang": 66,
+          "siapPanen": 40
+        },
+        "notes": "Pertumbuhan Nila merata, pakan protein 28% dipertahankan.",
+        "createdBy": "admin",
+        "createdAt": "2026-11-15T09:30:00.000Z"
+      },
+      {
+        "id": "PRT-003",
+        "pondId": "KLM-03",
+        "species": "Ikan emas",
+        "measurementDate": "2026-11-15",
+        "averageWeightGrams": 210,
+        "averageLengthCm": 22,
+        "sizeCategory": "Sedang",
+        "sampleCount": 10,
+        "sizeBreakdown": {
+          "kecil": 4,
+          "sedang": 18,
+          "siapPanen": 8
+        },
+        "notes": "Warna cerah, pertumbuhan sesuai kurva 2 mingguan.",
+        "createdBy": "admin",
+        "createdAt": "2026-11-15T10:00:00.000Z"
+      },
+      {
+        "id": "PRT-004",
+        "pondId": "KLM-04",
+        "species": "Patin",
+        "measurementDate": "2026-11-15",
+        "averageWeightGrams": 260,
+        "averageLengthCm": 27.5,
+        "sizeCategory": "Sedang",
+        "sampleCount": 12,
+        "sizeBreakdown": {
+          "kecil": 10,
+          "sedang": 68,
+          "siapPanen": 20
+        },
+        "notes": "20 ekor sudah mulai masuk ukuran panen awal.",
+        "createdBy": "admin",
+        "createdAt": "2026-11-15T10:30:00.000Z"
+      }
+    ],
+    "mortalityRecords": [
+      {
+        "id": "KMT-001",
+        "pondId": "KLM-01",
+        "species": "Lele",
+        "date": "2026-10-12",
+        "deadCount": 6,
+        "suspectedCause": "Stres adaptasi awal pasca tebar",
+        "notes": "Terjadi pada minggu kedua setelah penebaran.",
+        "createdBy": "admin",
+        "createdAt": "2026-10-12T08:00:00.000Z"
+      },
+      {
+        "id": "KMT-002",
+        "pondId": "KLM-02",
+        "species": "Nila",
+        "date": "2026-10-18",
+        "deadCount": 2,
+        "suspectedCause": "Fluktuasi suhu hujan deras",
+        "notes": "Sudah ditangani dengan penambahan aerasi.",
+        "createdBy": "admin",
+        "createdAt": "2026-10-18T09:00:00.000Z"
+      },
+      {
+        "id": "KMT-003",
+        "pondId": "KLM-04",
+        "species": "Patin",
+        "date": "2026-11-14",
+        "deadCount": 2,
+        "suspectedCause": "Endapan sisa pakan dasar kolam",
+        "notes": "Segera dilakukan penyifonan dasar kolam.",
+        "createdBy": "admin",
+        "createdAt": "2026-11-14T11:00:00.000Z"
+      }
+    ],
+    "maintenanceRecords": [
+      {
+        "id": "PRW-001",
+        "pondId": "KLM-01",
+        "date": "2026-11-19",
+        "frequency": "Harian",
+        "activity": "Mengangkat sampah dan sisa pakan",
+        "conditionBefore": "Sedikit busa tipis di tepi saluran pembuangan",
+        "conditionAfter": "Permukaan air bersih dan bebas sisa pakan",
+        "officer": "Petugas Lapangan 1",
+        "notes": "Pembersihan rutin pagi hari",
+        "cost": 0,
+        "createdBy": "admin",
+        "createdAt": "2026-11-19T07:50:00.000Z"
+      },
+      {
+        "id": "PRW-002",
+        "pondId": "KLM-02",
+        "date": "2026-11-16",
+        "frequency": "Mingguan",
+        "activity": "Memeriksa air dan membersihkan kotoran ikan",
+        "conditionBefore": "Kekeruhan sedang di dasar kolam",
+        "conditionAfter": "Air lebih jernih, filter dibersihkan",
+        "officer": "Petugas Lapangan 1",
+        "notes": "Filter mekanis dicuci bersih",
+        "cost": 35000,
+        "createdBy": "admin",
+        "createdAt": "2026-11-16T10:00:00.000Z"
+      }
+    ],
+    "feedingSchedules": [
+      {
+        "id": "JDW-001",
+        "pondId": "KLM-01",
+        "species": "Lele",
+        "slotLabel": "Pagi",
+        "timeWindow": "07.00–08.00",
+        "feedId": "PKN-01",
+        "plannedAmountKg": 1.5,
+        "actualAmountKg": 1.5,
+        "date": "2026-11-19",
+        "status": "Selesai",
+        "completedAt": "2026-11-19T07:30:00.000Z",
+        "updatedBy": "admin"
+      },
+      {
+        "id": "JDW-002",
+        "pondId": "KLM-01",
+        "species": "Lele",
+        "slotLabel": "Siang",
+        "timeWindow": "12.00–13.00",
+        "feedId": "PKN-01",
+        "plannedAmountKg": 1.5,
+        "date": "2026-11-19",
+        "status": "Belum dilakukan"
+      },
+      {
+        "id": "JDW-003",
+        "pondId": "KLM-01",
+        "species": "Lele",
+        "slotLabel": "Sore",
+        "timeWindow": "16.00–17.00",
+        "feedId": "PKN-01",
+        "plannedAmountKg": 1.5,
+        "date": "2026-11-19",
+        "status": "Belum dilakukan"
+      },
+      {
+        "id": "JDW-004",
+        "pondId": "KLM-02",
+        "species": "Nila",
+        "slotLabel": "Pagi",
+        "timeWindow": "07.30–08.30",
+        "feedId": "PKN-02",
+        "plannedAmountKg": 1,
+        "actualAmountKg": 1,
+        "date": "2026-11-19",
+        "status": "Selesai",
+        "completedAt": "2026-11-19T07:45:00.000Z",
+        "updatedBy": "admin"
+      },
+      {
+        "id": "JDW-005",
+        "pondId": "KLM-02",
+        "species": "Nila",
+        "slotLabel": "Sore",
+        "timeWindow": "16.00–17.00",
+        "feedId": "PKN-02",
+        "plannedAmountKg": 1,
+        "date": "2026-11-19",
+        "status": "Belum dilakukan"
+      },
+      {
+        "id": "JDW-006",
+        "pondId": "KLM-03",
+        "species": "Ikan emas",
+        "slotLabel": "Pagi",
+        "timeWindow": "08.00–09.00",
+        "feedId": "PKN-03",
+        "plannedAmountKg": 0.4,
+        "date": "2026-11-19",
+        "status": "Sedang dilakukan",
+        "updatedBy": "admin"
+      },
+      {
+        "id": "JDW-007",
+        "pondId": "KLM-04",
+        "species": "Patin",
+        "slotLabel": "Sore",
+        "timeWindow": "16.30–17.30",
+        "feedId": "PKN-04",
+        "plannedAmountKg": 1.2,
+        "date": "2026-11-19",
+        "status": "Belum dilakukan"
+      }
+    ],
+    "harvestRecords": [],
+    "salesTransactions": [
+      {
+        "id": "PNJ-001",
+        "date": "2026-11-15",
+        "species": "Lele",
+        "weightKg": 15,
+        "pricePerKg": 25000,
+        "totalAmount": 375000,
+        "buyerName": "Warung Pecel Lele Barokah",
+        "notes": "Penjualan panen parsial seleksi ukuran besar",
+        "sourceType": "direct",
+        "linkedFinanceId": "KEU-003",
+        "createdBy": "admin",
+        "createdAt": "2026-11-15T14:00:00.000Z"
+      },
+      {
+        "id": "PNJ-002",
+        "date": "2026-11-17",
+        "species": "Nila",
+        "weightKg": 8,
+        "pricePerKg": 32000,
+        "totalAmount": 256000,
+        "buyerName": "Pasar Segar Nusantara",
+        "notes": "Penjualan ikan Nila segar kualitas grade A",
+        "sourceType": "direct",
+        "linkedFinanceId": "KEU-004",
+        "createdBy": "admin",
+        "createdAt": "2026-11-17T11:00:00.000Z"
+      }
+    ],
+    "financialTransactions": [
+      {
+        "id": "KEU-001",
+        "date": "2026-10-01",
+        "type": "pengeluaran",
+        "category": "Biaya operasional",
+        "amount": 350000,
+        "description": "Listrik pompa aerator & probiotik air bulan Oktober",
+        "sourceType": "manual",
+        "createdBy": "admin",
+        "createdAt": "2026-10-01T09:00:00.000Z"
+      },
+      {
+        "id": "KEU-002",
+        "date": "2026-11-05",
+        "type": "pengeluaran",
+        "category": "Biaya operasional",
+        "amount": 280000,
+        "description": "Listrik pompa aerator & vitamin ikan bulan November",
+        "sourceType": "manual",
+        "createdBy": "admin",
+        "createdAt": "2026-11-05T09:00:00.000Z"
+      },
+      {
+        "id": "KEU-003",
+        "date": "2026-11-15",
+        "type": "pemasukan",
+        "category": "Penjualan lele",
+        "amount": 375000,
+        "description": "Penjualan Lele 15 kg @ Rp25.000 (Warung Pecel Lele Barokah)",
+        "species": "Lele",
+        "sourceType": "sale",
+        "sourceId": "PNJ-001",
+        "createdBy": "admin",
+        "createdAt": "2026-11-15T14:00:00.000Z"
+      },
+      {
+        "id": "KEU-004",
+        "date": "2026-11-17",
+        "type": "pemasukan",
+        "category": "Penjualan nila",
+        "amount": 256000,
+        "description": "Penjualan Nila 8 kg @ Rp32.000 (Pasar Segar Nusantara)",
+        "species": "Nila",
+        "sourceType": "sale",
+        "sourceId": "PNJ-002",
+        "createdBy": "admin",
+        "createdAt": "2026-11-17T11:00:00.000Z"
+      },
+      {
+        "id": "KEU-005",
+        "date": "2026-11-16",
+        "type": "pengeluaran",
+        "category": "Perawatan kolam",
+        "amount": 35000,
+        "description": "Perawatan filter & pembersihan kotoran ikan KLM-02",
+        "pondId": "KLM-02",
+        "sourceType": "maintenance",
+        "sourceId": "PRW-002",
+        "createdBy": "admin",
+        "createdAt": "2026-11-16T10:00:00.000Z"
+      }
+    ],
+    "notifications": [
+      {
+        "id": "NTF-001",
+        "type": "stok_pakan",
+        "severity": "warning",
+        "title": "Stok Pakan Ikan Emas Menipis",
+        "message": "Pelet Ikan Emas Halus tersisa 16 kg (di bawah batas minimum 20 kg).",
+        "targetRole": "all",
+        "isRead": false,
+        "createdAt": "2026-11-19T06:00:00.000Z"
+      },
+      {
+        "id": "NTF-002",
+        "type": "ikan_sakit",
+        "severity": "critical",
+        "title": "Pemantauan Kesehatan Kolam Patin (KLM-04)",
+        "message": "4 ekor Patin mengalami sirip kemerahan ringan. Pemberian probiotik sedang berlangsung.",
+        "pondId": "KLM-04",
+        "targetRole": "all",
+        "isRead": false,
+        "createdAt": "2026-11-17T10:05:00.000Z"
+      },
+      {
+        "id": "NTF-003",
+        "type": "pakan_jadwal",
+        "severity": "info",
+        "title": "Jadwal Pakan Siang Kolam Lele",
+        "message": "Pemberian pakan Lele (KLM-01) sesi Siang pukul 12.00–13.00 sebanyak 1,5 kg.",
+        "pondId": "KLM-01",
+        "targetRole": "admin",
+        "isRead": false,
+        "createdAt": "2026-11-19T08:00:00.000Z"
+      }
+    ],
+    "activityLogs": [
+      {
+        "id": "LOG-001",
+        "actorRole": "admin",
+        "action": "UPDATE_FEEDING_SCHEDULE",
+        "entityType": "feedingSchedule",
+        "entityId": "JDW-001",
+        "summary": "Admin menyelesaikan pemberian pakan pagi Kolam Lele A1 (1,5 kg).",
+        "timestamp": "2026-11-19T07:30:00.000Z"
+      },
+      {
+        "id": "LOG-002",
+        "actorRole": "admin",
+        "action": "LOG_MAINTENANCE",
+        "entityType": "maintenance",
+        "entityId": "PRW-001",
+        "summary": "Admin mencatat perawatan harian pembersihan sisa pakan Kolam Lele A1.",
+        "timestamp": "2026-11-19T07:50:00.000Z"
+      },
+      {
+        "id": "LOG-003",
+        "actorRole": "admin",
+        "action": "RECORD_SALE",
+        "entityType": "sale",
+        "entityId": "PNJ-002",
+        "summary": "Admin mencatat penjualan Nila 8 kg senilai Rp256.000 ke Pasar Segar Nusantara.",
+        "timestamp": "2026-11-17T11:00:00.000Z"
+      }
+    ],
+    "settings": {
+      "farmName": "IKANARA Sentra Budidaya",
+      "location": "Operasional Kolam Terpadu 42 m²",
+      "totalInitialCapital": 20000000,
+      "seedReserveBudget": 300000,
+      "capitalAllocations": [
+        {
+          "id": "MOD-1",
+          "name": "Pembangunan kolam",
+          "amount": 5000000,
+          "category": "Infrastruktur"
+        },
+        {
+          "id": "MOD-2",
+          "name": "Pembelian benih",
+          "amount": 1500000,
+          "category": "Bibit"
+        },
+        {
+          "id": "MOD-3",
+          "name": "Pakan awal",
+          "amount": 4000000,
+          "category": "Pakan"
+        },
+        {
+          "id": "MOD-4",
+          "name": "Pompa, filter, aerator",
+          "amount": 1500000,
+          "category": "Peralatan"
+        },
+        {
+          "id": "MOD-5",
+          "name": "Peralatan lainnya",
+          "amount": 750000,
+          "category": "Peralatan"
+        },
+        {
+          "id": "MOD-6",
+          "name": "Instalasi air",
+          "amount": 750000,
+          "category": "Infrastruktur"
+        },
+        {
+          "id": "MOD-7",
+          "name": "Operasional awal",
+          "amount": 1000000,
+          "category": "Operasional"
+        },
+        {
+          "id": "MOD-8",
+          "name": "Cadangan pakan dan operasional",
+          "amount": 2000000,
+          "category": "Cadangan"
+        },
+        {
+          "id": "MOD-9",
+          "name": "Dana cadangan",
+          "amount": 3500000,
+          "category": "Cadangan"
+        }
+      ],
+      "feedingTemplates": [
+        {
+          "species": "Lele",
+          "slots": [
+            {
+              "slotLabel": "Pagi",
+              "timeWindow": "07.00–08.00",
+              "defaultAmountKg": 1.5
+            },
+            {
+              "slotLabel": "Siang",
+              "timeWindow": "12.00–13.00",
+              "defaultAmountKg": 1.5
+            },
+            {
+              "slotLabel": "Sore",
+              "timeWindow": "16.00–17.00",
+              "defaultAmountKg": 1.5
+            }
+          ]
+        },
+        {
+          "species": "Nila",
+          "slots": [
+            {
+              "slotLabel": "Pagi",
+              "timeWindow": "07.30–08.30",
+              "defaultAmountKg": 1
+            },
+            {
+              "slotLabel": "Sore",
+              "timeWindow": "16.00–17.00",
+              "defaultAmountKg": 1
+            }
+          ]
+        },
+        {
+          "species": "Ikan emas",
+          "slots": [
+            {
+              "slotLabel": "Pagi",
+              "timeWindow": "08.00–09.00",
+              "defaultAmountKg": 0.4
+            },
+            {
+              "slotLabel": "Sore",
+              "timeWindow": "16.00–17.00",
+              "defaultAmountKg": 0.4
+            }
+          ]
+        },
+        {
+          "species": "Patin",
+          "slots": [
+            {
+              "slotLabel": "Pagi",
+              "timeWindow": "07.30–08.30",
+              "defaultAmountKg": 1.2
+            },
+            {
+              "slotLabel": "Sore",
+              "timeWindow": "16.30–17.30",
+              "defaultAmountKg": 1.2
+            }
+          ]
+        }
+      ],
+      "sizeThresholds": [
+        {
+          "species": "Lele",
+          "smallMaxGrams": 50,
+          "mediumMaxGrams": 100,
+          "harvestReadyMinGrams": 101
+        },
+        {
+          "species": "Nila",
+          "smallMaxGrams": 80,
+          "mediumMaxGrams": 220,
+          "harvestReadyMinGrams": 221
+        },
+        {
+          "species": "Ikan emas",
+          "smallMaxGrams": 100,
+          "mediumMaxGrams": 250,
+          "harvestReadyMinGrams": 251
+        },
+        {
+          "species": "Patin",
+          "smallMaxGrams": 150,
+          "mediumMaxGrams": 400,
+          "harvestReadyMinGrams": 401
+        }
+      ],
+      "revenueTargets": [
+        {
+          "species": "Lele",
+          "weekly": 375000,
+          "monthly": 1500000,
+          "yearly": 18000000
+        },
+        {
+          "species": "Nila",
+          "weekly": 250000,
+          "monthly": 1000000,
+          "yearly": 12000000
+        },
+        {
+          "species": "Ikan emas",
+          "weekly": 125000,
+          "monthly": 500000,
+          "yearly": 6000000
+        },
+        {
+          "species": "Patin",
+          "weekly": 250000,
+          "monthly": 1000000,
+          "yearly": 12000000
+        }
+      ],
+      "browserNotificationsEnabled": false
+    }
+  },
+  "processedMutations": {}
+}
